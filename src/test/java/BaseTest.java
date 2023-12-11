@@ -1,4 +1,4 @@
-import base.mathods.BaseMethods;
+import base.methods.BaseMethods;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 

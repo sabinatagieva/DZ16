@@ -15,7 +15,7 @@
 
     <test name="Package1">
         <classes>
-            <class name="MainClassTest"/>
+            <class name="WikiTest"/>
         </classes>
     </test>
 

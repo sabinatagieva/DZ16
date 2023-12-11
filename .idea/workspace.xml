@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/builders/LoginBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/js/JavaScriptMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/po/wiki/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/mathods/BaseMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/methods/BaseMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/po/ArticlePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/po/wiki/ArticlePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/po/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/po/wiki/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WikiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YuES8sNyiXLmbpzIuOoYZyhb9m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.ActionsTest.uploadFile">
+    <configuration name="ActionsTest.contextAndClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionsTest" />
+      <option name="METHOD_NAME" value="contextAndClickTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsTest.contextAndDoubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionsTest" />
+      <option name="METHOD_NAME" value="contextAndDoubleClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsTest.frameTestInside" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionsTest" />
+      <option name="METHOD_NAME" value="frameTestInside" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsTest.submitAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionsTest" />
+      <option name="METHOD_NAME" value="submitAlerts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsTest.uploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionsTest" />
+      <option name="METHOD_NAME" value="uploadFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ActionsTest.uploadFile" />
+        <item itemvalue="TestNG.ActionsTest.contextAndClickTest" />
+        <item itemvalue="TestNG.ActionsTest.submitAlerts" />
+        <item itemvalue="TestNG.ActionsTest.contextAndDoubleClick" />
+        <item itemvalue="TestNG.ActionsTest.frameTestInside" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b441406-3d1f-4b58-aa9c-6327ceeb61da" name="Changes" comment="" />
+      <created>1701367061934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701367061934</updated>
+      <workItem from="1701367063030" duration="3786000" />
+      <workItem from="1701407896718" duration="6000" />
+      <workItem from="1701705566988" duration="8263000" />
+      <workItem from="1701879999795" duration="13000" />
+      <workItem from="1701891687893" duration="948000" />
+      <workItem from="1701968459064" duration="9891000" />
+      <workItem from="1701985474833" duration="8000" />
+      <workItem from="1702216584810" duration="678000" />
+      <workItem from="1702310413640" duration="124000" />
+      <workItem from="1702310546041" duration="479000" />
+      <workItem from="1702314804766" duration="2881000" />
+      <workItem from="1702317843611" duration="4180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

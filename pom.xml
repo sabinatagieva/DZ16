@@ -12,10 +12,10 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>3.141.59</selenium.version>
+        <selenium.version>4.15.0</selenium.version>
         <manager.version>5.6.2</manager.version>
         <testng.version>7.8.0</testng.version>
-        <assertJ.version>3.24.2</assertJ.version>
+        <assertJ.version>3.22.0</assertJ.version>
     </properties>
 
     <dependencies>

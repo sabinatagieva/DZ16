@@ -1,6 +1,6 @@
-package po;
+package po.wiki;
 
-import base.mathods.BaseMethods;
+import base.methods.BaseMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
