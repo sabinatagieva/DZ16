@@ -19,13 +19,13 @@ public class LoginPage extends BaseMethods {
 
     public LoginPage enterUsername(String username) {
         this.username = username;
-        send(usernameField, username);
+        send(usernameField);
         return this;
     }
 
     public LoginPage enterPassword(String password) {
         this.password = password;
-        send(passwordField, password);
+        send(passwordField);
         return this;
     }
 

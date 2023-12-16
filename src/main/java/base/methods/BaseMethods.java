@@ -10,6 +10,7 @@ import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 
 import static base.driver.DriverInit.getDriver;
+import static java.awt.SystemColor.text;
 
 public class BaseMethods {
     private WebDriverWait wait = null;
@@ -22,7 +23,7 @@ public class BaseMethods {
         waiter(locator, time).click();
     }
 
-    protected void send(By locator, String text) {
+    protected void send(By locator) {
         waiter(locator).sendKeys(text);
     }
 
