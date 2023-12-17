@@ -1,11 +1,20 @@
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import po.demoqa.*;
+import po.demoqa.FramePage;
+import po.demoqa.AlertsPage;
+import po.demoqa.DraggablePage;
+import po.demoqa.ButtonsPage;
+import po.demoqa.UploadDownloadPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static base.driver.DriverInit.getDriver;
 
 public class TestTest extends BaseTest {
-
+    @BeforeMethod
+    public void setUp() {
+        getDriver().get("https://demoqa.com/frames");
+    }
     @Test
     void frameTestInside() {
         String expectedHeadingText = "This is a sample page";
@@ -25,6 +34,10 @@ public class TestTest extends BaseTest {
                 .isEqualTo(expectedWrapperText);
     }
 
+    @BeforeMethod
+    public void setUp() {
+        getDriver().get("https://demoqa.com/alerts");
+    }
     @Test
     void submitAlerts() {
         String expectedAlertText = "This is a sample alert message";
@@ -37,6 +50,10 @@ public class TestTest extends BaseTest {
                 .isEqualTo(expectedAlertText);
     }
 
+    @BeforeMethod
+    public void navigateToDraggablePage() {
+        getDriver().get("https://demoqa.com/droppable");
+    }
     @Test
     void dragAndDropTest() {
         DraggablePage draggablePage = new DraggablePage(getDriver());
@@ -48,6 +65,10 @@ public class TestTest extends BaseTest {
                 .isEqualTo("Dropped!");
     }
 
+    @BeforeMethod
+    public void navigateToButtonsPage() {
+        getDriver().get("https://demoqa.com/buttons");
+    }
     @Test
     void contextAndClickTest() {
         String expectedContextText = "Context click successful";
@@ -62,6 +83,10 @@ public class TestTest extends BaseTest {
                 .isEqualTo(expectedDoubleClickText);
     }
 
+    @BeforeMethod
+    public void navigateToUploadDownloadPage() {
+        getDriver().get("https://demoqa.com/upload-download");
+    }
     @Test
     void uploadFile() {
         String filePath = "D:\\Project\\AutoTest\\src\\file";
@@ -74,4 +99,6 @@ public class TestTest extends BaseTest {
                 .as("Uploaded file name doesn't match")
                 .isEqualTo("file");
     }
+    @AfterMethod
+    void tearDown() {}
 }
