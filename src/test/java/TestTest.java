@@ -1,27 +1,17 @@
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import po.demoqa.FramePage;
-import po.demoqa.AlertsPage;
-import po.demoqa.DraggablePage;
-import po.demoqa.ButtonsPage;
-import po.demoqa.UploadDownloadPage;
+import po.demoqa.*;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static base.driver.DriverInit.getDriver;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class TestTest extends BaseTest {
-    @BeforeMethod
-    public void setUp() {
-        getDriver().get("https://demoqa.com/frames");
-    }
+
     @Test
     void frameTestInside() {
         String expectedHeadingText = "This is a sample page";
         String expectedWrapperText = "This is a sample page";
 
         FramePage framePage = new FramePage(getDriver());
-        framePage.setUp();
 
         String headingText = framePage.searchHeadingText().toString();
         assertThat(headingText)
@@ -34,30 +24,20 @@ public class TestTest extends BaseTest {
                 .isEqualTo(expectedWrapperText);
     }
 
-    @BeforeMethod
-    public void setUp() {
-        getDriver().get("https://demoqa.com/alerts");
-    }
     @Test
     void submitAlerts() {
         String expectedAlertText = "This is a sample alert message";
         AlertsPage alertsPage = new AlertsPage(getDriver());
-        alertsPage.setUp();
 
-        alertsPage.element();
+        alertsPage.getElement();
         assertThat(alertsPage.getAlertText())
                 .as("Alert text doesn't match")
                 .isEqualTo(expectedAlertText);
     }
 
-    @BeforeMethod
-    public void navigateToDraggablePage() {
-        getDriver().get("https://demoqa.com/droppable");
-    }
     @Test
     void dragAndDropTest() {
         DraggablePage draggablePage = new DraggablePage(getDriver());
-        draggablePage.navigateToDraggablePage();
 
         draggablePage.performDragAndDrop();
         assertThat(draggablePage.getDroppableText())
@@ -65,17 +45,12 @@ public class TestTest extends BaseTest {
                 .isEqualTo("Dropped!");
     }
 
-    @BeforeMethod
-    public void navigateToButtonsPage() {
-        getDriver().get("https://demoqa.com/buttons");
-    }
     @Test
     void contextAndClickTest() {
         String expectedContextText = "Context click successful";
         String expectedDoubleClickText = "Double click successful";
 
         ButtonsPage buttonsPage = new ButtonsPage(getDriver());
-        buttonsPage.navigateToButtonsPage();
 
         buttonsPage.performDoubleClick();
         assertThat(buttonsPage.getDoubleClickText())
@@ -83,22 +58,15 @@ public class TestTest extends BaseTest {
                 .isEqualTo(expectedDoubleClickText);
     }
 
-    @BeforeMethod
-    public void navigateToUploadDownloadPage() {
-        getDriver().get("https://demoqa.com/upload-download");
-    }
     @Test
     void uploadFile() {
         String filePath = "D:\\Project\\AutoTest\\src\\file";
 
         UploadDownloadPage uploadDownloadPage = new UploadDownloadPage(getDriver());
-        uploadDownloadPage.navigateToUploadDownloadPage();
 
         uploadDownloadPage.uploadFile(filePath);
         assertThat(uploadDownloadPage.getUploadedFileName())
                 .as("Uploaded file name doesn't match")
                 .isEqualTo("file");
     }
-    @AfterMethod
-    void tearDown() {}
 }

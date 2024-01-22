@@ -19,4 +19,7 @@ public class AlertsPage extends BaseMethods {
         alert.accept();
         return alertText;
     }
+
+    public void getElement() {
+    }
 }

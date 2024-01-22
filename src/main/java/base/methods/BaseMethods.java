@@ -2,6 +2,7 @@ package base.methods;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +15,13 @@ import static java.awt.SystemColor.text;
 
 public class BaseMethods {
     private WebDriverWait wait = null;
+
+    public BaseMethods(WebDriver driver) {
+    }
+
+    public BaseMethods() {
+
+    }
 
     protected void click(By locator) {
         waiter(locator).click();
